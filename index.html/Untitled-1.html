@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AV Digital Solutions</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f4f4f9;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background-color: #1a1a2e;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ffcc00;
+      transition: 0.3s ease;
+    }
+    #hero {
+      background: url('images/banner.png') center/cover no-repeat;
+      text-align: center;
+      padding: 100px 20px;
+      color: #fff;
+    }
+    #services, #about, #contact, #reviews, #projects, #video, #features, #faq {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .service-card, .review-card, .project-card, .feature-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin: 20px 0;
+      text-align: center;
+    }
+    .service-card img, .project-card img, .feature-card img {
+      width: 100px;
+      height: 100px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 500px;
+      margin: 20px auto;
+    }
+    input, textarea {
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    button {
+      padding: 10px;
+      border: none;
+      background-color: #1a1a2e;
+      color: #fff;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #1a1a2e;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    iframe {
+      width: 100%;
+      height: 400px;
+      border-radius: 12px;
+      border: none;
+    }
+    @media (max-width: 768px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+      }
+      #hero {
+        padding: 60px 10px;
+      }
+      .service-card, .review-card, .project-card, .feature-card {
+        margin: 10px;
+      }
+      iframe {
+        height: 250px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AV Digital Solutions</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#features">Features</a>
+      <a href="#faq">FAQs</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#video">Video</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Your Digital Growth Partner</h2>
+    <p>Automation, SEO, E-commerce, and More</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="service-card">
+      <img src="images/seo.png" alt="SEO Services">
+      <h3>SEO Services</h3>
+      <p>Optimize your website to rank higher and get discovered faster.</p>
+    </div>
+    <div class="service-card">
+      <img src="images/automation.png" alt="Automation">
+      <h3>Process Automation</h3>
+      <p>Save time and reduce errors with smart automation solutions.</p>
+    </div>
+    <div class="service-card">
+      <img src="images/ecommerce.png" alt="E-commerce Solutions">
+      <h3>E-commerce Solutions</h3>
+      <p>End-to-end product listing and marketplace management.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Our Work</h2>
+    <div class="project-card">
+      <img src="images/project1.png" alt="Project 1">
+      <h3>Retail Automation Tool</h3>
+      <p>Created a custom automation solution to handle bulk product uploads.</p>
+    </div>
+    <div class="project-card">
+      <img src="images/project2.png" alt="Project 2">
+      <h3>SEO Revamp for E-commerce Brand</h3>
+      <p>Improved organic reach by 80% in 3 months through advanced SEO techniques.</p>
+    </div>
+  </section>
+
+  <section id="features">
+    <h2>Platform Features</h2>
+    <div class="feature-card">
+      <img src="images/analytics.png" alt="Analytics">
+      <h3>Real-Time Analytics</h3>
+      <p>Get insights into performance with live dashboards and metrics.</p>
+    </div>
+    <div class="feature-card">
+      <img src="images/support.png" alt="Support">
+      <h3>24/7 Customer Support</h3>
+      <p>Dedicated team ready to help you anytime, anywhere.</p>
+    </div>
+    <div class="feature-card">
+      <img src="images/security.png" alt="Security">
+      <h3>Enterprise-grade Security</h3>
+      <p>Keep your data safe with advanced encryption and monitoring.</p>
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="review-card">
+      <p><strong>Q: What services does AV Digital Solutions offer?</strong><br>A: We offer SEO, process automation, e-commerce management, and more.</p>
+    </div>
+    <div class="review-card">
+      <p><strong>Q: How do I get started?</strong><br>A: Contact us via email or WhatsApp, and we'll guide you step-by-step.</p>
+    </div>
+    <div class="review-card">
+      <p><strong>Q: Are your services customizable?</strong><br>A: Absolutely! We tailor our solutions to meet your business needs.</p>
+    </div>
+  </section>
+
+  <section id="reviews">
+    <h2>What Clients Say</h2>
+    <div class="review-card">
+      <p>"Aakash and his team transformed our SEO strategy. We saw immediate improvements!" – Riya S.</p>
+    </div>
+    <div class="review-card">
+      <p>"The automation tools AV Digital built helped us save hours every week." – Mohit K.</p>
+    </div>
+  </section>
+
+  <section id="video">
+    <h2>Watch Our Work</h2>
+    <iframe src="https://www.youtube.com/embed/0yWqCtvnswE" allowfullscreen></iframe>
+  </section>
+
+  <section id="about">
+    <h2>About Aakash Verma</h2>
+    <p>I’m Aakash, founder of AV Digital Solutions. I specialize in content moderation, e-commerce, SEO, and automation. With industry experience and a passion for innovation, I help businesses scale through digital excellence.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="mailto:aakash@avdigitalsolutions.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p>Email: aakash@avdigitalsolutions.com</p>
+    <p>WhatsApp: +91-XXXXXXXXXX</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AV Digital Solutions</p>
+  </footer>
+</body>
+</html>
